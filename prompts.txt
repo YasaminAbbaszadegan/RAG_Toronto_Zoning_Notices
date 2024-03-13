@@ -1,0 +1,5 @@
+1.extract the PURPOSE OF THE APPLICATION, the final approval status and can you make it into a json format
+2.extract the PURPOSE OF THE APPLICATION and the approval status as a json format
+3.give an overall summary of  all the pointers under the REQUESTED VARIANCE(S) TO THE ZONING BY-LAW 
+4.extract the final approval status as either approved, refused or approved with condition  and can you make it into a json format
+5.extract the final approval status as either "approved", "refused" or "approved with condition " , do NOT add more text
