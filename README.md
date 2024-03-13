@@ -6,7 +6,7 @@
 Description of your project goes here.
 
 ## Preview
-<img src="https://raw.githubusercontent.com/username/repository/master/image_folder/image_name.jpg" width="550" height="400">
+<img src="https://github.com/YasaminAbbaszadegan/RAG_Toronto_Zoning_Notices/blob/main/images/toronto_zoning_RAG_App.png" width="550" height="400">
 
 ## Installation
 
