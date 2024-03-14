@@ -14,7 +14,10 @@ def initialize_llama(documents_paths):
     sentence_window_engines = {}
 
     # Initialize LLAMA model
-    llm = LlamaCPP(model_url='https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf', temperature=1)
+    llm = LlamaCPP(model_url='https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf', 
+                   temperature=1, 
+                   model_kwargs={"n_gpu_layers": -1},
+                   verbose=True,)
     embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
     node_parser = SentenceWindowNodeParser.from_defaults(window_size=3, window_metadata_key="window", original_text_metadata_key="original_text")
     sentence_context = ServiceContext.from_defaults(llm=llm, embed_model=embed_model, node_parser=node_parser)
