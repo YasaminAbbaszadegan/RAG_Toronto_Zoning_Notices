@@ -34,7 +34,7 @@ def initialize_llama(documents_paths, use_advanced_node_parser):
 
     # Select node parser based on user's choice
     if use_advanced_node_parser:
-        node_parser = SentenceWindowNodeParser.from_defaults(window_size=10, window_metadata_key="window", original_text_metadata_key="original_text")
+        node_parser = SentenceWindowNodeParser.from_defaults(window_size=5, window_metadata_key="window", original_text_metadata_key="original_text")
         postprocessors = [postproc,rerank]
     else:
         node_parser = SentenceSplitter() #chunk_size=500, chunk_overlap=20

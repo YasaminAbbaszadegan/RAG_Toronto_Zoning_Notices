@@ -1,0 +1,22 @@
+{
+    "queries": {
+        "87ce6719-5d76-4acb-a099-860077ccb20e": "Who are the property owners of PLAN 254E PT LOTS 23 & 24, as indicated by the document?",
+        "861f10f6-ea84-4465-b65b-842fab947ccd": "What is the last date for appealing this decision to the Ontario Municipal Board, as stated in the document?",
+        "a365db2b-ca96-4d00-85d6-831f1073cb8a": "What is the filing fee required to appeal this decision to the Ontario Municipal Board, as stated in the document?",
+        "7074585b-f607-4881-b467-10756f8fdb84": "What is the legal description and community of the property address 91 Leuty Ave, according to the document?",
+        "c1c5b476-5edc-4361-a9b5-0275ae3bc085": "What are the two requirements mentioned in the document that would not be met by the proposed rear deck addition?",
+        "6908c8a9-0c41-41a0-b650-ccc7f4a825a4": "Which two sections of By-law 438 -86 are referenced in the document in regards to parking and access requirements?",
+        "e6d660b9-2790-4a8f-9071-feaf698960b4": "What are the two dimensions of a building that were exceeded by the proposed rear deck addition according to the Zoning By-law?",
+        "fc0599f0-5a8d-44f2-ab44-8266fe77982d": "In what year did houses built before become subject to certain restrictions in terms of additions?"},
+
+ "responses": {
+        "87ce6719-5d76-4acb-a099-860077ccb20e": " MICHAEL SUTTON and MELANIE COURTOIS are the property owners of PLAN 254E PT LOTS 23 & 24, as indicated by the document.",
+        "861f10f6-ea84-4465-b65b-842fab947ccd": " The last date for appealing this decision to the Ontario Municipal Board, as stated in the document, is Tuesday, May 10, 2016.",
+        "a365db2b-ca96-4d00-85d6-831f1073cb8a": "The filing fee required to appeal this decision to the Ontario Municipal Board is $125.00, as stated in the document. An additional reduced fee of $25.00 is required for each connected appeal filed by the same appellant.",
+        "7074585b-f607-4881-b467-10756f8fdb84": " The legal description of the property address 91 Leuty Ave, according to the document, is PLAN 254E PT LOTS 23 & 24 and the community is Toronto.",
+        "c1c5b476-5edc-4361-a9b5-0275ae3bc085": "1) The minimum required width of an access driveway leading to a parking facility will be eliminated by the rear deck (as per Section 4(5)(I)(I) of By-law 438-86). 2) No parking space will be provided (as per Section 4(4)(b) of By-law 438-86).",
+        "6908c8a9-0c41-41a0-b650-ccc7f4a825a4": "1. Section 4(5)(I)(I) which discusses the minimum required width of an access driveway leading to a parking facility and a turning radius at the end of a right-of-way, and 2. Section 4(4)(b) which requires at least one parking space to be provided.",
+        "e6d660b9-2790-4a8f-9071-feaf698960b4": "1) Minimum required width of an access driveway leading to a parking facility - eliminated by the rear deck. Required width is 2.6 m, and no turning radius at the end of the right-of-way is provided.\n   2) Depth of the residential building - the altered semi-detached dwelling will have a building depth of 19.23 m, while the maximum depth according to the zoning by-law is 17.0 m.",
+        "fc0599f0-5a8d-44f2-ab44-8266fe77982d": "1953. According to the context information, additions to the rear of houses erected before October 15, 1953, or to converted houses, are subject to certain restrictions regarding the residential gross floor area and the depth of the building as stated in Section 6(3) Part VI 1(I) and 1(V) of By-law 438-86 respectively."}
+
+}
