@@ -5,8 +5,8 @@ import pandas as pd
 from initialize_llama import initialize_llama
 from file_operations import cache_uploaded_documents, remove_uploaded_folder
 
-st.set_page_config(page_icon="./icon/Toronto-logo-blue-750.jpg")
-st.image("./icon/Toronto-logo-blue-750.jpg", use_column_width=True, width=30)
+st.set_page_config(page_icon="./images/Toronto-logo-blue-750.jpg")
+st.image("./images/Toronto-logo-blue-750.jpg", use_column_width=True, width=30)
 st.title('Zoning Decision Assistant: City Notice Reader')
 upload_folder = 'temp'
 if upload_folder and not os.path.exists(upload_folder):
