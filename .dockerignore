@@ -1,0 +1,13 @@
+# Ignore log files
+prompts.txt
+requirements.txt
+Deployment_instructions.txt
+dummpy.txt
+.gitignore
+README.md
+# Ignore temporary files
+temp/
+eval_dataset/
+
+# Ignore development-specific directories
+.git/

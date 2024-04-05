@@ -1,5 +1,6 @@
 # initialize_llama.py
 from llama_index.core.node_parser import SentenceWindowNodeParser, SentenceSplitter
+# from llama_index.llms.ollama import Ollama
 
 import os
 from llama_index.core import VectorStoreIndex, ServiceContext, SimpleDirectoryReader, Document
@@ -22,6 +23,8 @@ def initialize_llama(documents_paths, use_advanced_node_parser):
     """
 
     sentence_window_engines = {}
+    # llm=Ollama(model='mistral')
+
     llm = LlamaCPP(model_url='https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf', 
                    temperature=1, 
                    model_kwargs={"n_gpu_layers": -1},

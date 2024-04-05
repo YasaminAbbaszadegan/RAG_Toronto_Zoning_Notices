@@ -1,1 +1,8 @@
 
+# Ignore log files
+Deployment_instructions.txt
+dummpy.txt
+
+# Ignore temporary files
+temp/
+__pycache__/
